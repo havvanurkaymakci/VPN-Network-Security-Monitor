@@ -1,0 +1,74 @@
+### GIT KOMUTLARI
+
+#### 1. **Git Deposu Başlatma**
+git init  # Yeni bir Git deposu başlat
+```
+
+#### 2. **GitHub Deposunu Bağlama**
+git remote add origin https://github.com/kullanici_adin/proje_adi.git  # GitHub deposunu bağla
+git branch -M main  # Ana branch'i main olarak ayarla
+```
+
+#### 3. **Değişiklikleri Kaydetme ve GitHub’a Gönderme (Push)**
+git add .  # Tüm değişiklikleri ekle
+git commit -m "Commit mesajı"  # Değişiklikleri commit et
+git push -u origin main  # Değişiklikleri GitHub’a gönder
+```
+
+#### 4. **Güncellemeleri GitHub’dan Alma (Pull)**
+git pull origin main  # En son değişiklikleri al
+```
+
+#### 5. **Branch (Dal) İşlemleri**
+git branch yeni_branch  # Yeni branch oluştur
+git checkout yeni_branch  # Yeni branch’e geçiş yap
+# veya
+git switch yeni_branch  # Yeni branch'e geçiş yap
+
+git checkout -b yeni_branch  # Yeni branch oluştur ve ona geç
+
+git add .
+git commit -m "Yeni branch'teki değişiklikler"
+git push origin yeni_branch  # Yeni branch'i GitHub’a gönder
+
+git checkout main  # Ana branch'e dön
+git merge yeni_branch  # Yeni branch’teki değişiklikleri ana branch’e birleştir
+git push origin main  # Güncellenen main branch’i GitHub’a gönder
+```
+
+#### 6. **Branch’i Silme**
+git branch -d yeni_branch  # Lokal branch'i sil
+git push origin --delete yeni_branch  # GitHub’daki branch’i sil
+```
+
+#### 7. **Durum ve Log Kontrolleri**
+git status  # Hangi dosyalar değişti kontrol et
+git log --oneline  # Commit geçmişini göster
+```
+
+#### 8. **Başka Bir GitHub Deposunu Klonlama (Clone)**
+git clone https://github.com/kullanici_adin/proje_adi.git  # Depoyu bilgisayara indir
+```
+
+#### 9. **.gitignore Dosyası Kullanımı**
+touch .gitignore  # .gitignore dosyası oluştur
+```
+Örnek `.gitignore` içeriği:
+```gitignore
+git_komutlari.txt  # Bu dosya GitHub'a yüklenmeyecek
+node_modules/
+venv/
+.DS_Store
+.env
+*.log
+```
+
+#### 10. **.gitignore Çalışmıyorsa?**
+git rm -r --cached .  # Önbellekteki dosyaları temizle
+git add .
+git commit -m ".gitignore güncellendi"
+git push origin main
+```
+
+Bu komutlarla GitHub işlemlerini kolayca yönetebilirsin! 🚀
+
