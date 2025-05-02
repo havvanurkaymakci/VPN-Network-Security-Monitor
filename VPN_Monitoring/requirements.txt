@@ -1,5 +1,5 @@
-tkinter
 psutil
 matplotlib
 requests
 subprocess
+scapy

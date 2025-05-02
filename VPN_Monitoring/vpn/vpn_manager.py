@@ -1,6 +1,16 @@
 
 import subprocess
+def connect_to_vpn():
+    print("Simulated VPN connection")
+    return True
 
+def disconnect_from_vpn():
+    print("Simulated VPN disconnection")
+    return True
+
+
+
+"""
 def connect_to_vpn():
     try:
         # VPN bağlanma komutları (docker ipsec örneği)
@@ -19,3 +29,4 @@ def disconnect_from_vpn():
     except subprocess.CalledProcessError:
         print("Failed to disconnect from VPN")
         return False
+"""
