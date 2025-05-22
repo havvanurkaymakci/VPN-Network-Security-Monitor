@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ag-guvenligi-odev
 =======
+=======
+>>>>>>> de3352d (lastcommit)
 
 # VPN Monitoring Project
 
@@ -14,4 +17,7 @@ Bu proje, VPN bağlantısı izleme, ağ izleme (Wireshark, tcpdump) ve test sonu
 ### Gereksinimler
 - Python 3.x
 - `requirements.txt`'te belirtilen Python kütüphaneleri
+<<<<<<< HEAD
 >>>>>>> 469b2e5 (commit)
+=======
+>>>>>>> de3352d (lastcommit)

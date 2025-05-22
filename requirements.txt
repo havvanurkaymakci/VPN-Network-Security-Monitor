@@ -1,4 +1,8 @@
 psutil
 matplotlib
 requests
+<<<<<<< HEAD
+=======
+subprocess
+>>>>>>> de3352d (lastcommit)
 scapy
