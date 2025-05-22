@@ -1,0 +1,10 @@
+version: '3'
+services:
+  vpn_monitor:
+    build: .
+    container_name: vpn_monitor_app
+    ports:
+      - "5000:5000"  # Flask uygulaması bu portta çalışıyorsa
+    volumes:
+      - .:/app
+    restart: always
