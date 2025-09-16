@@ -21,6 +21,7 @@ Zaman Serisi Analizi: Paket boyutlarının zamana göre değişimi
 Otomatik Rapor Üretimi: PNG formatında detaylı grafikler
 
 🛠️ Teknoloji Stack
+
 Python 3.x: Ana programlama dili
 Tkinter: Grafik kullanıcı arayüzü
 Scapy: Ağ paket analizi ve yakalama
